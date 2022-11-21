@@ -1,0 +1,120 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 700px);
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+    /* position: fixed; */
+
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: #e9d35b;
+    /* border: solid red; */
+    /* height: 40px; */
+    margin-top: 40px;
+    position: absolute;
+
+
+  }
+  
+  .about .prompt {
+    margin-top: 120px;
+    position: relative;
+    width: 40%;
+    height: 50px;
+    font-size: 25px;
+  }
+  /* .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  } */
+  .list{
+      /* border: solid orange; */
+      height: 500px;
+      margin-top: 0%;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* align-items: stretch; */
+      /* justify-content: flex-start; */
+  }
+  .item{
+      /* border: solid purple; */
+      margin-top: 1%;
+      width: 100%;
+      padding: 5px;
+  }
+  .skills {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    /* height: 110vh; */
+    /* overflow: scroll; */
+  }
+  
+  .skills h1 {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: #3e497a;
+    font-size: 40px;
+  }
+  
+  .skills .list {
+    list-style: none;
+    /* width: 100%; */
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  .skills h2 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+      /* border: solid pink; */
+      /* margin-top: 1px; */
+    font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+   
+  }
